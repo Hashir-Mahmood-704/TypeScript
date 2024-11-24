@@ -29,3 +29,4 @@ type Bike = Pick<VehicleInterface, "name" | "wheels">
 
 // omit, used to create a type by omiting keys from another type
 type Scooter = Omit<VehicleInterface, "name" | "doors">
+console.log("hashir")
